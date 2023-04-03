@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/projetojs/style.css">
+    <title>Calculadora IMC</title>
+</head>
+<header>
+    <nav class="navbar">
+       <a href="/projetojs/index.html"><h1>Bem-vindo ao ambiente de desenvolvimento Javascript</h1></a>
+       <br></br>
+    </nav>
+</header>
+<body>
+    <h1>Calculadora de IMC</h1>
+	<form>
+		<label>Informe sua altura (em metros):</label>
+		<input type="number" step="0.01" name="altura1"><br><br>
+
+		<label>Informe seu peso (em quilogramas):</label>
+		<input type="number" step="0.01" name="peso1"><br><br>
+
+		<label>Informe seu sexo:</label>
+		<input type="radio" name="sexo1" value="feminino">Feminino
+		<input type="radio" name="sexo1" value="masculino">Masculino<br><br>
+
+		<input type="button" value="Calcular IMC" onclick="calcularIMC()">
+	</form>
+
+	<p id="resultado"></p>
+</body>
+</html>
+
+	
